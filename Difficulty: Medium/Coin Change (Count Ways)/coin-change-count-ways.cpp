@@ -10,11 +10,7 @@ class Solution {
                  dp[0][j]=0;
              
          }
-         for(int i=1;i<=coins.size();i++){
-             
-                 dp[i][0]=1;
-             
-         }
+         
      
      for(int i=1;i<=coins.size();i++){
          for(int j=0;j<=sum;j++){
